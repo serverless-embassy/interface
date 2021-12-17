@@ -5,5 +5,5 @@ export interface IHttpResponse extends ISource {
   setStatusCode(code: number): IHttpResponse;
   setHeader(key: string, value: string): IHttpResponse;
   delHeader(key: string): IHttpResponse;
-  send(body: Buffer | string): IHttpResponse;
+  send(body?: Buffer | string): IHttpResponse;
 }
