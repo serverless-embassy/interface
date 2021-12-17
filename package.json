@@ -21,6 +21,7 @@
     "url": "git+https://github.com/serverless-embassy/interface.git"
   },
   "keywords": [
+    "embassy",
     "serverless",
     "framework",
     "cloud-functions"
