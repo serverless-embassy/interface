@@ -1,4 +1,4 @@
-import { ISource } from "./source";
+import { ISource } from './source';
 
 export interface ILogger extends ISource {
   debug(...args: unknown[]): void;

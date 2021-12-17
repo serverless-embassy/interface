@@ -1,6 +1,6 @@
 {
   "name": "@embassy/interface",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Interface Definition to suit cloud function between different Cloud Platform",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

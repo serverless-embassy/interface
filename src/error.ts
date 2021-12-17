@@ -1,7 +1,7 @@
 export class ReturnedError extends Error {
-  wrapped: unknown
+  wrapped: unknown;
   constructor(wrapped: unknown) {
-    super()
-    this.wrapped = wrapped
+    super();
+    this.wrapped = wrapped;
   }
 }

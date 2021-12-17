@@ -1,5 +1,5 @@
 export interface ISource {
-  /** aliyun / tencent */ 
-  source: string
-  getSource(): string
+  /** aliyun / tencent */
+  source: string;
+  getSource(): string;
 }
