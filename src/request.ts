@@ -7,7 +7,7 @@ export interface IHttpRequest extends ISource {
   getMethod(): string;
   getQueries(): object;
   getHeaders(): object;
-  getClientIp(): object;
+  getClientIp(): string;
   getBodyByBuffer(): Promise<Buffer>;
   getBodyByString(): Promise<string>;
   getBodyByJson<T = unknown>(): Promise<T>;
