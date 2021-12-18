@@ -1,3 +1,6 @@
+import { IConnector } from "./connector";
+
+
 export type TOptions = {
   headers?: object;
 };
@@ -9,6 +12,8 @@ export interface IReturn<T> {
 }
 
 export interface IClient {
+  connector: IConnector
+
   invoke<TEvent = object, TResult = void>(
     srvName: string,
     funcName: string,
