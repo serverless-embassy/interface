@@ -13,7 +13,7 @@ export interface IReturn<T> {
 export interface IClient {
   connector: IConnector;
 
-  invoke<TEvent = object, TResult = void>(
+  invoke<TEvent = string | object, TResult = void>(
     srvName: string,
     funcName: string,
     event?: TEvent,
