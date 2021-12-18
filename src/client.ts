@@ -1,6 +1,7 @@
 import { IConnector } from './connector';
 
 export type TOptions = {
+  qualifier?: string,
   headers?: object;
 };
 
