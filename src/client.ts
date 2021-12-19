@@ -6,9 +6,10 @@ export type TOptions = {
 };
 
 export interface IReturn<T> {
+  getData(): T;
   toBuffer(): Buffer;
   toString(): string;
-  toJson(): T;
+  toJson(): object;
 }
 
 export interface IClient {
